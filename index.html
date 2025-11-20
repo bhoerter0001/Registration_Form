@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body> 
+    <h1>Register Here</h1>
+    <form action="results.html" method="GET">
+        <div>
+            <label for="email"><strong>Email:</strong></label>
+            <input type="email" name="email" id="email" required>
+        </div>    
+        <div>
+            <label for="firstname"><strong>First Name:</strong></label>
+            <input type="text" name="firstname" id="firstname" required>
+        </div>
+        <div>
+            <label for="lastname"><strong>Last Name:</strong></label>
+            <input type="text" name="lastname" id="lastname" required>
+        </div>
+        <div>
+            <label for="date"><strong>Date of Birth:</strong></label>
+            <input type="date" name="date" id="date" required>
+        </div>
+        <strong>Gender</strong>
+        <div>
+            <label for="male"><strong>Male</strong></label>
+            <input type="radio" name="gender" id="male" value="male">
+        </div>
+        <div>
+            <label for="female"><strong>Female</strong></label>
+            <input type="radio" name="gender" id="female" vaule="female">
+        </div>
+        <div>
+             <label for="username"><strong>Username:</strong></label>
+            <input type="text" name="username" id="username" required>
+        </div>
+        <div>
+            <label for="password"><strong>Password:</strong></label>
+            <input type="password" name="password" required>
+        </div>
+        <div>
+            
+            <input type="checkbox" name="terms_and_conditions" required> 
+        by checking this box you agree to all terms and conditions.
+        </div>
+
+        <button type="reset">Reset</button>
+        <button type="submit">Submit</button>
+       
+           
+    </form>    
+</body>
+</html>

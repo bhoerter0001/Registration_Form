@@ -1,1 +1,1 @@
-# Registration_Form
+For this project I chose to create a Registration Form. I feel like a registration form is very universal and can be use in multiple scenarios. It was great practice to learn how html and css goes hand in hand with projects.

@@ -1,0 +1,26 @@
+h1{
+    font-style: Times, Georgia, 'Times New Roman', Arial, sans-serif;
+    font-size: 50px;
+    text-align: center;
+    color: black;
+    background-color: hotpink;
+    padding: 10px;
+}
+
+body{
+    font-family: 'Times New Roman', Times, sans-serif, Georgia, Arial;
+    font-size:large;
+}
+
+div{
+    padding: 4px;
+}
+
+input{
+    font-family: 'Times New Roman', Times, serif, Georgia, Arial;
+}
+
+button{
+    font-family: 'Times New Roman', Times, serif, Georgia, Arial;
+    font-size: large;
+}
